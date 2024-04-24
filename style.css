@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.provinces-table {
+  width: 70%;
+  margin: 50px auto;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.provinces-table th,
+.provinces-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.provinces-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.community-row {
+  background-color: #4a4a4a; /* gris oscuro comunidades  */
+  color: #fff;
+}
+
+.province-row {
+  background-color: #5c97bf; /* azul claro provincias */
+  color: #fff;
+}
+
+.cities-row {
+  background-color: #ffffff; /* blanco ciudades */
+}
+
+.province-row:hover,
+.cities-row:hover {
+  background-color: #477dab; /* Cambio color provincias raton */
+}
+
+.toggle-icon {
+  float: right;
+  cursor: pointer;
+}
+
+.toggle-icon.active:before {
+  content: "-";
+}
+
+
+
